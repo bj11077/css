@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+#wrap{
+		display:flex; flex-flow:column;
+		width:500px; height:500px;  margin: 0 auto;
+		border:4px solid black; text-align: center;
+	}
+
+header{height: 20%; background-color: red;  text-align: center;}
+
+
+nav{height: 10%; background-color: yellow;}
+
+.d1{height: 50%; display: flex;}
+
+footer{height: 20%; background-color: pink;}
+
+
+.d1 .sec{order: 1; width: 70%; background-color: green;}
+
+
+
+.article1{order: 2; width: 30%; background-color: skyblue;}
+
+
+.sec h2{ text-align: center;}
+.sec header{margin:10px; height:20px; text-align: center; background-color: pink;}
+.article11 {margin:10px; height:20px; text-align: center; background-color: pink;}
+.sec footer{ margin:10px; height:20px; text-align: center; background-color: pink;}
+
+
+</style></head><body>
+
+<div id="wrap">
+<header>header</header>
+<nav>nav</nav>
+<div class="d1">
+	<section class="sec">
+		<h2>abcd</h2>
+		<header>header</header>
+		<article class="article11">article</article>
+		<footer>footer</footer>
+	</section>
+	<article class="article1">arti</article>
+</div>
+<footer>footer</footer>
+</div>
+
+
+
+
+
+
+</body>
+</html>

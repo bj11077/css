@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+#wrap{margin:auto; width:700px;  }
+
+ul{background-color:pink; height:30px; overflow:hidden;  
+	text-align:right;
+ }
+ul li{   
+list-style: none;   display: inline; background-color:red;
+padding:10px;  
+ }
+ 
+.one{color:green;}
+.two{color:blue;}
+.thr{color:red;}
+.fou{color:pink;}
+
+ 
+.ansBox:focus{background-color:red;}
+ 
+ 
+b{color:white;}
+
+a{text-decoration:none;}
+
+
+.aa:active{color:black;  }
+.aa:visited{color:black;}
+.aa:active+b.d1{
+	color:white;
+	background-color:gray;
+}
+.aa:active+b.d2{
+	color:white;
+	background-color:gray;
+}
+.aa:active+b.d3{
+	color:white;
+	background-color:gray;
+}
+.aa:active+b.d4{
+	color:white;
+	background-color:gray;
+}
+ 
+
+
+
+ 
+.imgg{background-image:url("quiz.png"); width:700px; height:300px;
+	background-size:700px 300px;
+}
+
+</style>
+</head>
+<body>
+<div id="wrap">
+<ul>
+<li><a href="#a1">1번 문제로 이동</a></li>
+<li><a href="#a2">2번 문제로 이동</a></li>
+<li><a href="#a3">3번 문제로 이동</a></li>
+<li><a href="#a4">4번 문제로 이동</a></li>
+</ul>
+<div class="imgg"></div>
+<hr>
+<h2>정답 확인 클릭시 정답 보여짐</h2>
+<hr>
+<a name="a1"><h2 class="one" >문제 1) 정적 언어는?</h2></a>
+정답 작성<input class="ansBox"><a href="#" class="aa" >정답 클릭 확인</a> <b class="d1" >정적 언어</b>
+<hr>
+<a name="a2"><h2 class="two" >문제 2) 서버 사이드 언어는?</h2></a>
+정답 작성<input class="ansBox"><a href="#" class="aa">정답 클릭 확인</a> <b class="d2">서버 사이드</b>
+<hr>
+<a name="a3"> <h2 class="thr" >문제 3) 프로그래밍 언어는?</h2></a>
+정답 작성<input class="ansBox"> <a href="#" class="aa">정답 클릭 확인</a> <b class="d3">프로그래밍 언어</b>
+<hr>
+<a name="a4"> <h2 class="fou" >문제 4) 클라이언트 사이드 언어는?</h2></a>
+정답 작성<input class="ansBox"> <a href="#" class="aa">정답 클릭 확인</a> <b class="d4">클라이언트 사이드 언어</b>
+</div>
+</body>
+</html>
